@@ -115,7 +115,7 @@ Normalize our dataset.
 
 <H3>Program:</H3> 
 
-
+```
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -153,12 +153,12 @@ print(predictions)
 # Last thing: evaluation of algorithm performance in classifying flowers
 print(confusion_matrix(y_test,predictions))
 print(classification_report(y_test,predictions))
-
+```
 
 ## OUTPUT:
 ![image](https://github.com/ShyamKumar-AI-DS/Ex-4-NN/assets/93427182/819e6edc-e922-48ab-924c-7e3fa40261f1)
 ### PROGRAM
-
+```
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
@@ -182,7 +182,7 @@ m1.fit(training_a, training_b.values.ravel())
 predicted_values = m1.predict(testing_a)
 print(confusion_matrix(testing_b,predicted_values))
 print(classification_report(testing_b,predicted_values))
-
+```
 ### OUTPUT:
 ![image](https://github.com/Subramaniya-pillai/Ex-4-NN/assets/94166127/fcc4f1c3-9ead-4405-9d45-f617e43a2c34)
 <H3>Result:</H3>
